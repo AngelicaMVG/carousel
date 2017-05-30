@@ -1,3 +1,10 @@
+body {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-family: monospace;
+}
+
 .carousel-content {
 	display: none;
 }
@@ -30,4 +37,39 @@ min-height:300px;
 margin:0;
 padding:0;
 border:0;
+}
+
+.controls {
+  margin-top: 1%;
+}
+.control {
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(238, 238, 238);
+  margin-left: 10px;
+}
+
+.previous , .next::after {
+  font-size: 40px;
+  color: #fff;
+}
+
+.previous:hover,.next:hover {
+  transform: scale(2);
+  text-decoration: none;
+  color: #fff;
+  transition: 1.5s;
+}
+
+.previous {
+  position: absolute;
+  left: 25%;
+  top: 50%;
+}
+
+.next {
+  position: absolute;
+  right: 25%;
+  top: 50%;
 }
