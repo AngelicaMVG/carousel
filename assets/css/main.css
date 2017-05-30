@@ -50,7 +50,7 @@ border:0;
   margin-left: 10px;
 }
 
-.previous , .next::after {
+.previous , .next {
   font-size: 40px;
   color: #fff;
 }
